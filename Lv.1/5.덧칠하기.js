@@ -34,7 +34,7 @@ console.log(solution(n, m, section));
 function solution(n, m, section) {
   let answer = 0;
   const target = Array.from({ length: n }, (x, i) => i + 1);
-  // 1번예시를 들면 1 ~ 8까지의 배열을 만들어줍니다.
+  // 예제1) 1 ~ 8까지의 배열을 만들어줍니다.
   console.log(target);
   // 배열이 빌 때 까지
   while (target.length) {
