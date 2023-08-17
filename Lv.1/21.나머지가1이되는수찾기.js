@@ -1,10 +1,10 @@
 // 23.08.17 내풀이 O
 function solution(n) {
-  let answer = 0;
   for (let i = 1; i <= n; i++) {
-    if (n % i === 0) answer += i;
+    if (n % i === 1) return i;
   }
-  return answer;
 }
-const n = 5;
+
+const n = 3;
+
 console.log(solution(n));
