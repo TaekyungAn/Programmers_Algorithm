@@ -28,6 +28,7 @@ function solution(players, callings) {
 
   // forEach로 배열 객체화 시키기
   players.forEach((name, index) => (idxList[name] = index));
+  //{"mumu":0, "soe":1, "poe":2, "kai":3, "mine":4}
   //{kai: 1, mine: 2, mumu: 0, poe: 4, soe: 3}
 
   for (let call of callings) {
